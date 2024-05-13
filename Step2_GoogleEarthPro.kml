@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<Style id="water">
+<IconStyle><Icon><href>http://www.google.com/mapfiles/ms/micons/water.png </href></Icon></IconStyle>
+</Style>
+<Style id="house">
+<IconStyle><Icon><href>http://www.google.com/mapfiles/kml/pal3/icon48.png </href></Icon></IconStyle>
+</Style>
+
+
+<Folder>
+<name>Apartment</name>
+<Placemark><name>Me</name>
+<styleUrl>#house</styleUrl><Point><coordinates>-118.2826997,34.030622</coordinates></Point> 
+</Placemark>
+</Folder>
+
+<Folder>
+<name>Libraries</name>
+<Placemark><name>Leavey</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2830373,34.0216697</coordinates></Point> 
+</Placemark>
+<Placemark><name>Doheny</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2838143,34.020195</coordinates></Point>
+</Placemark>
+<Placemark><name>Accounting</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2855577,34.0192106</coordinates></Point> 
+</Placemark>
+<Placemark><name>Hoose</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2867697,34.0188799</coordinates></Point>
+</Placemark>
+<Placemark><name>ScienceEng</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2888532,34.0196468</coordinates></Point>
+</Placemark>
+<Placemark><name>HelenTopping</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2878845,34.0191264</coordinates></Point>
+</Placemark>
+</Folder>
+
+
+<Folder>
+<name>Fountains</name>
+<Placemark><name>Founders</name>
+<styleUrl>#water</styleUrl><Point><coordinates> -118.2838323,34.0225646</coordinates></Point>
+</Placemark>
+<Placemark><name>Generations</name>
+<styleUrl>#water</styleUrl><Point><coordinates>-118.2832249,34.0222982</coordinates></Point>
+</Placemark>
+<Placemark><name>Prentiss_Memorial</name>
+<styleUrl>#water</styleUrl><Point><coordinates>-118.284551,34.0205849</coordinates></Point> 
+</Placemark>
+<Placemark><name>PatsyForrest</name>
+<styleUrl>#water</styleUrl><Point><coordinates>-118.285167,34.0203086</coordinates></Point>
+</Placemark>
+<Placemark><name>DouglasFairbanksSr</name>
+<styleUrl>#water</styleUrl><Point><coordinates>-118.2864936,34.0234537</coordinates></Point>
+</Placemark>
+<Placemark><name>NearUSCFisher</name>
+<styleUrl>#water</styleUrl><Point><coordinates>-118.2877165,34.0186318</coordinates></Point>
+</Placemark>
+</Folder>
+
+<Placemark>
+<name>ConvexHull</name>
+<Style><LineStyle><color>ff800080</color></LineStyle><PolyStyle><color>ff800080</color></PolyStyle></Style>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-118.2877165,34.0186318 -118.2888532,34.0196468 -118.2826997,34.030622 -118.2830373,34.0216697 -118.2838143,34.020195 -118.2855577,34.0192106 -118.2867697,34.0188799 -118.2877165,34.0186318</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon> 
+</Placemark>
+<Placemark>
+<name>Neighbour</name>
+<description>Neighbour</description>
+<Style><LineStyle><color>ff0080ff</color><width>3</width></LineStyle></Style>
+<LineString>
+<coordinates>-118.2864936,34.0234537 -118.2826997,34.030622</coordinates>
+</LineString>
+</Placemark>
+
+</Document></kml>
+
+
+
+
+
+
